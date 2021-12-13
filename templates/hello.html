@@ -1,0 +1,15 @@
+<html>
+   <body>
+      <form action = "http://localhost:5000/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+          <p>Page no. <input type = "number" name = "no" /></p>
+         <p>rotation angle <select name="angle" type='number'>
+  <option value="90">90</option>
+  <option value="180">180</option>
+  <option value="270">270</option>
+</select></p> 
+         <input type = "submit"/>
+      </form>
+   </body>
+</html>
